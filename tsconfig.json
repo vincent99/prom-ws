@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": true,
+    "paths": {
+      "@/*": ["./*"],
+      "~/*": ["./*"]
+    },
+    "jsx": "preserve",
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir":"./dist",
+    "moduleResolution": "Node",
+    "esModuleInterop":true,
+    "skipLibCheck": true,
+    "strict": true,
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "node"
+    ]
+  }
+}

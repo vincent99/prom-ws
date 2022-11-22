@@ -1,0 +1,33 @@
+{
+  "name": "prom-ws",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "WebSocket server to stream Prometheus query results",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acorn-io/prom-ws.git"
+  },
+  "author": "Vincent Fiduccia <vincent@acorn.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/acorn-io/prom-ws/issues"
+  },
+  "homepage": "https://github.com/acorn-io/prom-ws#readme",
+  "devDependencies": {
+    "@types/aws4": "^1.11.2",
+    "@types/node": "^18.11.9",
+    "@types/ws": "^8.5.3",
+    "aws4": "^1.11.0",
+    "cross-fetch": "^3.1.5",
+    "dayjs": "^1.11.6",
+    "eslint": "^8.27.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "ws": "^8.11.0"
+  }
+}
